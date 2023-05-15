@@ -245,6 +245,12 @@ body {
   width: 650px;
   margin: auto;
 }
+@media (max-width: 680px) {
+  .content {
+    padding-inline: 30px;
+    width: auto;
+  }
+}
 
 .show-modal {
   margin-top: 20px;
