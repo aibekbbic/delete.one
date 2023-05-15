@@ -1,0 +1,14 @@
+.cards-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 30px 50px 20px;
+}
+.cards-row > * {
+  flex-shrink: 0;
+}
+.cards-row + * {
+  margin-top: 20px;
+}

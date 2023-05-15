@@ -1,0 +1,6 @@
+.footer-buttons-row {
+  display: flex;
+}
+.footer-buttons-row > .modal-button + .modal-button {
+  margin-left: 20px;
+}

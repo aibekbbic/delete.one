@@ -1,0 +1,16 @@
+.card-radio {
+  width: 1px;
+  height: 1px;
+  appearance: none;
+  position: absolute;
+  opacity: 0;
+}
+.card-radio:checked + .card {
+  box-shadow: 1px 1px 10px #0094d8;
+  background-color: rgb(225, 237, 247);
+}
+
+.card-radio:checked + .card .card-icon {
+  fill: #0094d8;
+  transform: scale(1.1);
+}

@@ -1,0 +1,10 @@
+.button-cancel {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  cursor: pointer;
+  transition: fill 0.2s ease-in;
+  &:hover {
+    fill: #e23c13;
+  }
+}

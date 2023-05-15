@@ -1,0 +1,30 @@
+.card {
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in;
+  &:hover {
+    box-shadow: 1px 1px 10px #414e5a;
+  }
+  &:hover > .card-header,
+  &:hover > .card-body {
+    border-color: #137ee2;
+  }
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  border: 1px solid grey;
+  border-radius: 4px 4px 0 0;
+}
+.card-body {
+  padding: 20px 35px;
+  border: 1px solid grey;
+  border-radius: 0 0 4px 4px;
+  border-top: none;
+}
+.card-icon {
+  transition: all 0.2s ease-in;
+}

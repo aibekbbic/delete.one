@@ -1,0 +1,30 @@
+.modal-button {
+  padding: 10px 40px;
+  background-color: #137ee2;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease-in, background-color 0.2s ease-in,
+    border-color 0.2s ease-in;
+
+  &:hover {
+    background-color: #5aa4e9;
+    color: aliceblue;
+    border-color: #5aa4e9;
+  }
+  @media (max-width: 680px) {
+    padding: 10px 20px;
+  }
+}
+.modal-cancel {
+  color: black;
+  border: 1px solid grey;
+  background-color: aliceblue;
+
+  &:hover {
+    background-color: black;
+    border-color: transparent;
+  }
+}
